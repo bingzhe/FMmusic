@@ -2,9 +2,42 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>磁带播放器</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="fm">
+  <audio id="music"><span>HTML5 audio not supported</span></audio>
+  <div class="panel-min"></div>
+  <div class="panel">
+    <!--磁带面板-->
+    <div class="vc-tape-wrapper">
+      <div class="vc-tape">
+        <div class="vc-tape-back">
+          <div class="vc-tape-wheel vc-tape-wheel-left"><div></div></div>
+          <div class="vc-tape-wheel vc-tape-wheel-right"><div></div></div>
+        </div>
+        <div class="vc-tape-font vc-tape-side-a">
+          <span>A</span>
+        </div>
+        <div class="vc-tape-font vc-tape-side-b">
+          <span>B</span>
+        </div>
+      </div>
+    </div>
+    <!--播放控制-->
+    <ul class="vc-controls">
+      <li class="vc-control-play">PLAY</li>
+      <li class="vc-control-rewind">REW</li>
+      <li class="vc-control-fforward">FF</li>
+      <li class="vc-control-stop">STOP</li>
+      <li class="vc-control-switch">SWITCH</li>
+    </ul>
+    <!--音量控制-->
+    <div class="vc-volume-wrap">
 
+    </div>
+  </div>
+</div>
 </body>
 </html>
